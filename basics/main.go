@@ -6,7 +6,7 @@ package main
 
 import "fmt"
 
-// import is a statement where you can import different packages for others to use or to use within your code. This helps in
+// import is a statement where you can import different packages from others or the standar packages available to use within your code.
 // structuring your code (for now.)
 // ease of access to work people already have done.
 // implement powerful stuff to your code.
