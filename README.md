@@ -1,3 +1,5 @@
-# github.com
+# Go-basic
 
-## Making all the learnings of GO easier to find.
+## A place where I organize all my golang learnings.
+
+- Most of the learnings from Go tour, golang webdev course from Udemy, gophercises, and other examples. 
