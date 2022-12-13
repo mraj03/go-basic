@@ -47,7 +47,11 @@ func main(){
 
 	case 12:
 		fmt.Println("It is December")
+	// if they give wrong number, we say please provide any number of month from 1-12.
+	default:
+		fmt.Println("please provide any number of month from 1-12")
 	}
+
 	
 	
 }
