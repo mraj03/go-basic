@@ -16,7 +16,7 @@ func main() {
 
 	for multiNum <= 4 {
 		fmt.Println(multiNum * multiNum)
-		
+		break
 	}
 	fmt.Println("------------------")
 	fmt.Println("Condition statements - if/else")
