@@ -3,9 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	num := 1
 
-	for num = 1; num <= 10; num++ {
+
+	for num := 1; num <= 10; num++ {
 		fmt.Println(num)
 	}
 
@@ -16,7 +16,7 @@ func main() {
 
 	for multiNum <= 4 {
 		fmt.Println(multiNum * multiNum)
-		break
+		
 	}
 	fmt.Println("------------------")
 	fmt.Println("Condition statements - if/else")
@@ -38,7 +38,7 @@ func main() {
 
 	var fiveNum int
 	fmt.Print("Enter a number:\n ")
-	fmt.Scanln(&num)
+	fmt.Scanln(&fiveNum)
 
 	if fiveNum%5 == 0 {
 		fmt.Println("This number is divisible by 5")
